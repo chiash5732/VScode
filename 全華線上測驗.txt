@@ -1,6 +1,0 @@
-
-全華線上測驗學生入口
-http://52.68.126.252/CHWA_EXAM/student.html#/login
-
-教師email
-chichuanlo@ymsh.hcc.edu.tw
