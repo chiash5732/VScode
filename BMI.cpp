@@ -30,5 +30,6 @@ int main()
         cout<<"體重過重";
     else
         cout<<"體重肥胖";
-	return 0;
+    system("pause");
+    return 0;
 }
