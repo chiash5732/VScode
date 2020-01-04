@@ -6,17 +6,18 @@
 using namespace std;
 int main()
 {
-    int a,b,c,sum;
-     cout << "請輸入加總開始值?";
-     cin >> a;
-     cout << "請輸入加總終止值?";
-     cin >> b;
-     cout << "請輸入遞增減值?";
-     cin >> c;
-     for(int i=a;i<=b;i+=c){
-     	sum+=i;
-     	cout <<"i="<<i<<",sum="<<sum<<"\n";
-	 }
-	 system ("pause");
-	 return 0;
+    int a, b, c, sum;
+    cout << "請輸入加總開始值?";
+    cin >> a;
+    cout << "請輸入加總終止值?";
+    cin >> b;
+    cout << "請輸入遞增減值?";
+    cin >> c;
+    for (int i = a; i <= b; i += c)
+    {
+        sum += i;
+        cout << "i=" << i << ",sum=" << sum << "\n";
+     }
+     system("pause");
+     return 0;
 }
