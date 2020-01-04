@@ -21,15 +21,15 @@ int main()
 	cin>>b;
     BMI=a/(b*b) ;
     c=floor(BMI);
-    cout<<"BMI為"<<BMI;
+    cout << "BMI為" << BMI << "\n";
     if(c<18)
-        cout<<"體重過輕";
+        cout<<"體重過輕\n";
     else if(18<=c&&c<24)
-        cout<<"體重正常";
+        cout<<"體重正常\n";
     else if(24<=c&&c<27)
-        cout<<"體重過重";
+        cout<<"體重過重\n";
     else
-        cout<<"體重肥胖";
+        cout<<"體重肥胖\n";
     system("pause");
     return 0;
 }
