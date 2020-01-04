@@ -18,6 +18,7 @@ int main()
         sum += i;
         cout << "i=" << i << ",sum=" << sum << "\n";
      }
+
      system("pause");
      return 0;
 }
