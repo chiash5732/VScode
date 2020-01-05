@@ -1,12 +1,12 @@
-//µ{¦¡³]­p´Á¥½¦Ò¸Õ
-//µ²ºc§PÂ_¦¡    1.if  2.if   else   3.if     else  if
+//ç¨‹å¼è¨­è¨ˆæœŸæœ«è€ƒè©¦
+//çµæ§‹åˆ¤æ–·å¼    1.if  2.if   else   3.if     else  if
 //4.switch() case a...b  break;     default:
-//°j°é          1.for   2.while   3.do   while
-//¨ú¾ã¼Æ¨ç¦¡ floor()
-//BMI­pºâ¤è¦¡:BMI=Åé­«(kg)°£¥H¨­°ª(M)ªº¥­¤è
-//BMI­È¤À¯Å¦p¤U:
-//BMI<18:Åé­«¹L»´;18<BMI<24 Åé­«¥¿±`  ;
-//24<=<BMI<27 Åé­«¹L­« ;27<=<BMI Åé­«ªÎ­D;
+//è¿´åœˆ          1.for   2.while   3.do   while
+//å–æ•´æ•¸å‡½å¼ floor()
+//BMIè¨ˆç®—æ–¹å¼:BMI=é«”é‡(kg)é™¤ä»¥èº«é«˜(M)çš„å¹³æ–¹
+//BMIå€¼åˆ†ç´šå¦‚ä¸‹:
+//BMI<18:é«”é‡éè¼•;18<BMI<24 é«”é‡æ­£å¸¸  ;
+//24<=<BMI<27 é«”é‡éé‡ ;27<=<BMI é«”é‡è‚¥èƒ–;
 #include <iostream>
 #include <stdlib.h>
 #include <math.h>
@@ -15,21 +15,21 @@ using namespace std;
 int main()
 {
     float a,b,BMI,c;
-	cout<< "½Ğ¿é¤JÅé­«(kg):";
+	cout<< "è«‹è¼¸å…¥é«”é‡(kg):";
 	cin>>a;
-	cout<< "½Ğ¿é¤J¨­°ª(M):";
+	cout<< "è«‹è¼¸å…¥èº«é«˜(M):";
 	cin>>b;
     BMI=a/(b*b) ;
     c=floor(BMI);
-    cout << "BMI¬°" << BMI << "\n";
+    cout << "BMIç‚º" << BMI << "\n";
     if(c<18)
-        cout<<"Åé­«¹L»´\n";
+        cout<<"é«”é‡éè¼•\n";
     else if(18<=c&&c<24)
-        cout<<"Åé­«¥¿±`\n";
+        cout<<"é«”é‡æ­£å¸¸\n";
     else if(24<=c&&c<27)
-        cout<<"Åé­«¹L­«\n";
+        cout<<"é«”é‡éé‡\n";
     else
-        cout<<"Åé­«ªÎ­D\n";
+        cout<<"é«”é‡è‚¥èƒ–\n";
     system("pause");
     return 0;
 }

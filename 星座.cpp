@@ -3,113 +3,113 @@ using namespace std;
 int main()
 {
     int m,d;
-    cout << "¿é¤J¥X¥Í¤ë¥÷:";
+    cout << "è¼¸å…¥å‡ºç”Ÿæœˆä»½:";
 	cin >> m ;
 	if((m<1)||(m>12)){
-		cout << "¤ë¥÷¿é¤J¿ù»~!";
+		cout << "æœˆä»½è¼¸å…¥éŒ¯èª¤!";
 		return 0;
 	}
-	cout << "¿é¤J¥X¥Í¤é´Á:";
+	cout << "è¼¸å…¥å‡ºç”Ÿæ—¥æœŸ:";
 	cin >> d ;
 	if((m==2&&d>29)||(m==4&&d>30)||(m==6&&d>30)||(m==9&&d>30)||(m==11&&d>30)||(d<1)||(d>31)){
-		cout << "¥Í¤é¿é¤J¿ù»~!";
+		cout << "ç”Ÿæ—¥è¼¸å…¥éŒ¯èª¤!";
 	}
 	else{
 		switch(m){
 			case 1:
 				if(d>=21){
-					cout << "¤ô²~®y Aquarius";
+					cout << "æ°´ç“¶åº§ Aquarius";
 				}
 				else{
-					cout << "¼¯½~®y Capricorn";
+					cout << "æ‘©ç¾¯åº§ Capricorn";
 				}
 				break;
 			case 2:
 				if(d<=19){
-					cout << "¤ô²~®y Aquarius";
+					cout << "æ°´ç“¶åº§ Aquarius";
 				}
 				else{
-					cout << "Âù³½®y Pisces";
+					cout << "é›™é­šåº§ Pisces";
 				}
 				break;
 			case 3:
 				if(d<=20){
-					cout << "Âù³½®y Pisces";
+					cout << "é›™é­šåº§ Pisces";
 				}
 				else{
-					cout << "§ù¦Ï®y Aries";
+					cout << "æœç¾Šåº§ Aries";
 				}
 				break;
 			case 4:
 				if(d<=20){
-					cout << "§ù¦Ï®y Aries";
+					cout << "æœç¾Šåº§ Aries";
 				}
 				else{
-					cout << "ª÷¤û®y Taurus";
+					cout << "é‡‘ç‰›åº§ Taurus";
 				}
 				break;
 			case 5:
 				if(d<=21){
-					cout << "ª÷¤û®y Taurus";
+					cout << "é‡‘ç‰›åº§ Taurus";
 				}
 				else{
-					cout << "Âù¤l®y Gemini";
+					cout << "é›™å­åº§ Gemini";
 				}
 				break;
 			case 6:
 				if(d<=21){
-					cout << "Âù¤l®y Gemini";
+					cout << "é›™å­åº§ Gemini";
 				}
 				else{
-					cout << " ¥¨ÃÉ®y Cancer";
+					cout << " å·¨èŸ¹åº§ Cancer";
 				}
 				break;
 			case 7:
 				if(d<=22){
-					cout << " ¥¨ÃÉ®y Cancer";
+					cout << " å·¨èŸ¹åº§ Cancer";
 				}
 				else{
-					cout << "·à¤l®y Leo";
+					cout << "ç…å­åº§ Leo";
 				}
 				break;
 			case 8:
 				if(d<=22){
-					cout << "·à¤l®y Leo";
+					cout << "ç…å­åº§ Leo";
 				}
 				else{
-					cout << "³B¤k®y Virgo";
+					cout << "è™•å¥³åº§ Virgo";
 				}
 				break;
 			case 9:
 				if(d<=23){
-					cout << "³B¤k®y Virgo";
+					cout << "è™•å¥³åº§ Virgo";
 				}
 				else{
-					cout << "¤Ñ¯¯®y Libra";
+					cout << "å¤©ç§¤åº§ Libra";
 				}
 				break;
 			case 10:
 				if(d<=23){
-					cout << "¤Ñ¯¯®y Libra";
+					cout << "å¤©ç§¤åº§ Libra";
 				}
 				else{
-					cout << "¤ÑÃÈ®y Scorpio";
+					cout << "å¤©è åº§ Scorpio";
 				}
 				break;
 			case 11:
 				if(d<=22){
-					cout << "¤ÑÃÈ®y Scorpio";
+					cout << "å¤©è åº§ Scorpio";
 				}
 				else{
-					cout << "®g¤â®y Sagittarius";
+					cout << "å°„æ‰‹åº§ Sagittarius";
 				}
 				break;
 			case 12:
 				if(d<=21){
-					cout << "®g¤â®y Sagittarius";
+					cout << "å°„æ‰‹åº§ Sagittarius";
 				}
 				else{
-					cout << " ¼¯½~®y Capricorn";
+					cout << " æ‘©ç¾¯åº§ Capricorn";
 				}
 				break;
 			default:

@@ -3,18 +3,18 @@ using namespace std;
 int main()
 {
     float p;
-    cout << "¿é¤J±ıÀx­ÈªºÂI¼Æ:";
+    cout << "è¼¸å…¥æ¬²å„²å€¼çš„é»æ•¸:";
     cin >> p;
-    cout << "Àx­È"<< p << "ÂI¡AÀ³¥I";
+    cout << "å„²å€¼"<< p << "é»ï¼Œæ‡‰ä»˜";
     if(p<=999)
-        cout << p*0.8 << "¤¸";
+        cout << p*0.8 << "å…ƒ";
     else if(p<=2999&&p>=1000)
-        cout << p*0.7 << "¤¸";
+        cout << p*0.7 << "å…ƒ";
     else if(p<=4999&&p>=3000)
-        cout << p*0.6 << "¤¸";
+        cout << p*0.6 << "å…ƒ";
     else if(p>=5000)
-       cout << p*0.5 << "¤¸";
+       cout << p*0.5 << "å…ƒ";
     else
-        cout << "earror¤¸";
+        cout << "earrorå…ƒ";
     return 0;
 }
