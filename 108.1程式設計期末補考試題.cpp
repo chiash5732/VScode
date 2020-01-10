@@ -1,7 +1,7 @@
-//µ{¦¡³]­p´Á¥½¦Ò¸Õ       
-//µ²ºc§PÂ_¦¡    1.if {}  2.if  {}  else  {}  3.if  {}   else  if {}   3.switch(a)    case a:
-//°j°é          1.for (   )    {     }         2.while {}  3.do   while   
-//³]©w¼e«×setw( )
+//ç¨‹å¼è¨­è¨ˆæœŸæœ«è€ƒè©¦
+//çµæ§‹åˆ¤æ–·å¼    1.if {}  2.if  {}  else  {}  3.if  {}   else  if {}   3.switch(a)    case a:
+//è¿´åœˆ          1.for (   )    {     }         2.while {}  3.do   while
+//è¨­å®šå¯¬åº¦setw( )
 #include <iostream>
 #include <stdlib.h>
 #include <iomanip>
@@ -9,10 +9,10 @@ using namespace std;
 int main()
 {
 	int a,b,i,j;
-	cout << "½Ğ¿ï¾Ü:(1)»¼¼W;(2)»¼´î;";
+	cout << "è«‹é¸æ“‡:(1)éå¢;(2)éæ¸›;";
 	cin >> a;
 	if(a==1){
-	cout << "½Ğ¿é¤Jµ²§ô­È:"; 
+	cout << "è«‹è¼¸å…¥çµæŸå€¼:";
 	cin >> b;
 	for(i=1;i<=b;i++){
 		for(j=1;j<=b;j++){
@@ -22,7 +22,7 @@ int main()
 		}
 	}
 	else if(a==2){
-	cout << "½Ğ¿é¤J¶}©l­È:"; 
+	cout << "è«‹è¼¸å…¥é–‹å§‹å€¼:";
 	cin >> b;
 	for(i=b;i>=1;i--){
 		for(j=b;j>=1;j--){
@@ -32,7 +32,7 @@ int main()
 		}
 	}
 	else {
-	 	cout << "¿é¤J¿ù»~\n"; 
+	 	cout << "è¼¸å…¥éŒ¯èª¤\n";
 	}
 system ("pause");
 	 return 0;
