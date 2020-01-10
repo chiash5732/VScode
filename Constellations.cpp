@@ -141,7 +141,7 @@ int main()
 			}
 			break;
 		default:
-			cout << "earror";
+			cout << "error";
 		}
 	}
 	return 0;
