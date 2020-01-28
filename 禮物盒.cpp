@@ -3,12 +3,12 @@ using namespace std;
 int main()
 {
     int a,n,t;
-    cout << "½Ğ¿é¤J³Ì©³¼hªºÂ§²°¼Æ:";
+    cout << "è«‹è¼¸å…¥æœ€åº•å±¤çš„ç¦®ç›’æ•¸:";
     cin >> a;
     if (a % 2 != 0){
     n=(a+1)/2;
     t=((a+1)*n)/2;
-    cout << "Â§²°Á`¼Æ:" << t << endl;
+    cout << "ç¦®ç›’ç¸½æ•¸:" << t << endl;
     }
     else{
         cout << "input earror!";

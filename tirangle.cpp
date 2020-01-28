@@ -3,7 +3,7 @@ using namespace std;
 int main()
 {
     int tall;
-    cout << "½Ð¿é¤J¤T¨¤§Îªº°ª:";
+    cout << "è«‹è¼¸å…¥ä¸‰è§’å½¢çš„é«˜:";
     cin >> tall;
     for(int i=1;i <= tall;i++){
         for(int j=1; j<=i;j++){

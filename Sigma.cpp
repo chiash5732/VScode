@@ -1,24 +1,23 @@
-//µ{¦¡³]­p´Á¥½¦Ò¸Õ
-//µ²ºc§PÂ_¦¡    1.if  2.if   else   3.if     else  if    3.switch()    case
-//°j°é          1.for   2.while   3.do   while
+//ç¨‹å¼è¨­è¨ˆæœŸæœ«è€ƒè©¦
+//çµæ§‹åˆ¤æ–·å¼    1.if  2.if   else   3.if     else  if    3.switch()    case
+//è¿´åœˆ          1.for   2.while   3.do   while
 #include <iostream>
 #include <stdlib.h>
 using namespace std;
 int main()
 {
     int a, b, c, sum;
-    cout << "½Ğ¿é¤J¥[Á`¶}©l­È?";
+    cout << "è«‹è¼¸å…¥åŠ ç¸½é–‹å§‹å€¼?";
     cin >> a;
-    cout << "½Ğ¿é¤J¥[Á`²×¤î­È?";
+    cout << "è«‹è¼¸å…¥åŠ ç¸½çµ‚æ­¢å€¼?";
     cin >> b;
-    cout << "½Ğ¿é¤J»¼¼W´î­È?";
+    cout << "è«‹è¼¸å…¥éå¢æ¸›å€¼?";
     cin >> c;
     for (int i = a; i <= b; i += c)
     {
         sum += i;
         cout << "i=" << i << ",sum=" << sum << "\n";
      }
-
      system("pause");
      return 0;
 }

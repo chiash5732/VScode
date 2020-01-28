@@ -11,5 +11,7 @@
         "string_view": "cpp",
         "initializer_list": "cpp"
     },
-    "files.encoding": "cp950"
+//     "[cpp]":{
+//     "files.encoding": "cp950"
+// }
 }
