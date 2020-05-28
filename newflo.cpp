@@ -35,7 +35,7 @@ int main()
         }
     }
     saa = saa + "c";
-    cout << saa.c_str() << endl;
+    // cout << saa.c_str() << endl;
     system("pause");
     system(saa.c_str());
     return 0;
